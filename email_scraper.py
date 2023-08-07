@@ -30,7 +30,6 @@ def main():
 
     emails = set()
 
-    # Search for emails using regex
     emails.update(extract_emails_from_text(page_content))
 
     print("Extracted email addresses:")
